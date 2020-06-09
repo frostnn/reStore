@@ -12,7 +12,7 @@ export default class ErrorBoundry extends Component {
     if(this.state.hasError){
       return <ErrorIndicator />;
     }
-    return this.props.children;
+    this.props.children;
   }
 }
 
